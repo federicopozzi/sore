@@ -1,0 +1,242 @@
+#header > a {
+    color: navy !important;
+}
+
+@media only screen and (min-width:400px) {
+
+    #header{
+        padding: 0px;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        padding: 10px;
+    }
+    .itemrow{
+        display: block;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .block{
+        width: 35%;
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        border:1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-align:center;
+        margin:2%;    
+        padding:20px;
+    
+    }
+    .dueblock {
+        display: flex;
+        margin-left: 12%;
+    }
+    /*.block:hover{
+        border: 3px solid black;
+        padding: 17px
+    }*/
+    #header img {
+        width: 300px;
+        height: 75px;
+    
+    }
+    #header a {
+        margin-left: 10px;
+        font-size: 60px;
+    }
+    .principale {
+        background-image: url("../immagini/ruspa.png");
+        height: 84vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+    .intro {
+        margin-left: 99px;
+        width: 60%;
+        padding: 20px;
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+    .testointro {
+       font-family:  'Playfair Display', serif;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .round-button {
+        background-color: beige;
+        border: 1px black solid;
+        border-radius: 7%;
+        color:black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 30px 3px;
+        padding: 30px;
+        cursor: pointer;
+        line-height: 60px;
+    }
+    h1 {
+        font-size: 2.5em;
+        font-family:  'Playfair Display', serif;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    p {
+        font-family:  'Playfair Display', serif;
+        font-size: 1.5em;
+    }
+    .tre-colonne {
+        display: flex;
+        margin: 20px 5%;
+    }
+    .col {
+        margin-right: 10%;
+    }
+    .mappa {
+        margin: 20px 12%
+    }
+    .map {
+        width: 76%;
+    }
+    
+    .prima-foto {
+        width: 95%;
+        height: auto;
+    }
+    
+    .contenitore {
+        display: flex;
+        justify-content: start;
+    }
+    
+    .fascia {
+        display: flex;
+    }
+    body > main > div.mappa > div > iframe {
+        width: 700px;
+
+    }
+
+   
+}
+
+@media only screen and (min-width: 1024px) {
+    #header{
+        padding: 0px;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        padding: 10px;
+    }
+    .itemrow{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .block {
+        width: auto;
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        border:1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-align:center;
+        margin:2%;    
+        padding:20px;
+    
+    }
+    /*.block:hover{
+        border: 3px solid black;
+        padding: 17px
+    }*/
+    #header img {
+        width: 300px;
+        height: 75px;
+    
+    }
+    #header a {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .principale {
+        background-image: url("../immagini/ruspa.png");
+        height: 84vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+    .intro {
+        margin-left: 30px;
+        width: 30%;
+        padding: 20px;
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+    .testointro {
+       font-family:  'Playfair Display', serif;
+    }
+    .dueblock {
+        display: flex;
+        margin-left: 0;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .round-button {
+        background-color: beige;
+        border: 1px black solid;
+        border-radius: 7%;
+        color:black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px 2px;
+        cursor: pointer;
+        line-height: 50px;
+    }
+    h1 {
+        font-size: 2.5em;
+        font-family:  'Playfair Display', serif;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    p {
+        font-family:  'Playfair Display', serif;
+        font-size: 1em;
+    }
+    .tre-colonne {
+        display: flex;
+        margin: 20px 12%;
+    }
+    .col {
+        margin-right: 10%;
+    }
+    .mappa {
+        margin: 20px 12%;
+    }
+    .map {
+        width: 76%;
+    }
+    
+    .prima-foto {
+        width: 95%;
+        height: auto;
+    }
+    
+    .contenitore {
+        display: flex;
+        justify-content: start;
+    }
+    
+    .fascia {
+        display: flex;
+    }
+    
+    }
