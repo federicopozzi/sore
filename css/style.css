@@ -3,7 +3,7 @@ a {
 }
 
 @media only screen and (min-width:400px) {
-    #header > a {
+    #header>a {
         color: black !important;
         font-size: 40px;
     }
@@ -13,9 +13,9 @@ a {
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 100%;
-      }
-      
-      .box {
+    }
+
+    .box {
         width: 46%;
         margin: 2%;
         padding: 20px;
@@ -25,68 +25,72 @@ a {
         color: black;
         border: 1px solid black;
         border-radius: 10px;
-      
-      }
 
-      .box2 {
+    }
+
+    .box2 {
         width: 46%;
         margin: 2%;
         padding: 20px;
         box-sizing: border-box;
         text-align: center;
-        
-        color: rgba(127, 127, 127,0);
-      
-      
-      }
+
+        color: rgba(127, 127, 127, 0);
+
+
+    }
 
 
 
-    #header{
+    #header {
         padding: 0px;
         display: flex;
-        justify-content:start;
+        justify-content: start;
         align-items: center;
         padding: 10px;
     }
-    
+
     #header img {
         width: 500px;
         height: 100px;
-    
+
     }
+
     #header a {
         margin-left: 10px;
         font-size: 40px;
     }
+
     .principale {
         background-image: url("../immagini/ruspa.png");
         height: 84vh;
-        background-size: cover; 
+        background-size: cover;
         background-position: 25% 80%;
         display: flex;
         align-items: center;
     }
+
     .intro {
         margin-left: 99px;
         width: 60%;
         padding: 20px;
         background-color: rgb(255, 255, 255, 0.2);
     }
+
     .testointro {
-       font-family:  'Playfair Display', serif;
-       font-weight: normal !important;
+        font-family: 'Playfair Display', serif;
+        font-weight: normal !important;
     }
-    
+
     a {
         text-decoration: none !important;
     }
-    
+
     .round-button {
         background-color: beige;
         border: 1px black solid;
         border-radius: 7%;
-        color:black;
+        color: black;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -96,45 +100,53 @@ a {
         cursor: pointer;
         line-height: 60px;
     }
+
     h1 {
         font-size: 2.5em;
-        font-family:  'Playfair Display', serif;
+        font-family: 'Playfair Display', serif;
     }
+
     h2 {
         font-size: 3em;
     }
+
     p {
-        font-family:  'Playfair Display', serif;
+        font-family: 'Playfair Display', serif;
         font-size: 15px;
     }
+
     .tre-colonne {
         display: flex;
         margin: 20px 5%;
     }
+
     .col {
         margin-right: 10%;
     }
+
     .mappa {
         margin: 20px 12%
     }
+
     .map {
         width: 76%;
     }
-    
+
     .prima-foto {
         width: 95%;
         height: auto;
     }
-    
+
     .contenitore {
         display: flex;
         justify-content: start;
     }
-    
+
     .fascia {
         display: flex;
     }
-    body > main > div.mappa > div > iframe {
+
+    body>main>div.mappa>div>iframe {
         width: 700px;
 
     }
@@ -145,27 +157,30 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
-    #header > a {
+    #header>a {
         color: black !important;
         font-size: 40px;
     }
-    #header{
+
+    #header {
         padding: 0px;
         display: flex;
-        justify-content:start;
+        justify-content: start;
         align-items: center;
         padding: 10px;
     }
-    
+
     #header img {
         width: 300px;
         height: 75px;
-    
+
     }
+
     #header a {
         margin-left: 10px;
         font-size: 20px;
     }
+
     .principale {
         background-image: url("../immagini/ruspa.png");
         height: 84vh;
@@ -173,30 +188,33 @@ a {
         display: flex;
         align-items: center;
     }
+
     .intro {
         margin-left: 30px;
         width: 30%;
         padding: 20px;
         background-color: rgb(255, 255, 255, 0.2);
     }
+
     .testointro {
-       font-family:  'Playfair Display', serif;
-       font-weight: normal !important;
+        font-family: 'Playfair Display', serif;
+        font-weight: normal !important;
     }
+
     .dueblock {
         display: flex;
         margin-left: 0;
     }
-    
+
     a {
         text-decoration: none !important;
     }
-    
+
     .round-button {
         background-color: beige;
         border: 1px black solid;
         border-radius: 7%;
-        color:black;
+        color: black;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -205,46 +223,53 @@ a {
         cursor: pointer;
         line-height: 50px;
     }
+
     h1 {
         font-size: 2.5em;
-        font-family:  'Playfair Display', serif;
+        font-family: 'Playfair Display', serif;
     }
+
     h2 {
         font-size: 1em;
     }
+
     p {
-        font-family:  'Playfair Display', serif;
+        font-family: 'Playfair Display', serif;
         font-size: 1em;
     }
+
     .tre-colonne {
         display: flex;
         margin: 20px 12%;
     }
+
     .col {
         margin-right: 10%;
     }
+
     .mappa {
         margin: 20px 12%;
     }
+
     .map {
         width: 76%;
     }
-    
+
     .prima-foto {
         width: 95%;
         height: auto;
     }
-    
+
     .contenitore {
         display: flex;
         justify-content: start;
     }
-    
+
     .fascia {
         display: flex;
     }
-    
-      
+
+
 
 
     .container {
@@ -252,9 +277,9 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-      }
-      
-      .box {
+    }
+
+    .box {
         width: 20%;
         margin: 2%;
         padding: 20px;
@@ -264,14 +289,11 @@ a {
         color: black;
         border: 1px solid black;
         border-radius: 10px;
-      
-        
-       
-      }
-      
-     
+
+
 
     }
 
 
-      
+
+}
