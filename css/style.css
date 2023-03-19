@@ -73,6 +73,7 @@
     }
     .testointro {
        font-family:  'Playfair Display', serif;
+       font-weight: normal !important;
     }
     
     a {
@@ -178,6 +179,7 @@
     }
     .testointro {
        font-family:  'Playfair Display', serif;
+       font-weight: normal !important;
     }
     .dueblock {
         display: flex;
