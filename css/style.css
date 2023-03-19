@@ -1,8 +1,10 @@
-#header > a {
-    color: navy !important;
-}
+
 
 @media only screen and (min-width:400px) {
+    #header > a {
+        color: navy !important;
+        font-size: 40px;
+    }
 
     .container {
         display: flex;
@@ -24,6 +26,18 @@
       
       }
 
+      .box2 {
+        width: 46%;
+        margin: 2%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        
+        color: rgba(127, 127, 127,0);
+      
+      
+      }
+
 
 
     #header{
@@ -35,13 +49,13 @@
     }
     
     #header img {
-        width: 300px;
-        height: 75px;
+        width: 500px;
+        height: 100px;
     
     }
     #header a {
         margin-left: 10px;
-        font-size: 60px;
+        font-size: 40px;
     }
     .principale {
         background-image: url("../immagini/ruspa.png");
@@ -88,7 +102,7 @@
     }
     p {
         font-family:  'Playfair Display', serif;
-        font-size: 1.5em;
+        font-size: 15px;
     }
     .tre-colonne {
         display: flex;
@@ -122,12 +136,16 @@
 
     }
 
-   
+
 
 
 }
 
 @media only screen and (min-width: 1024px) {
+    #header > a {
+        color: navy !important;
+        font-size: 40px;
+    }
     #header{
         padding: 0px;
         display: flex;
