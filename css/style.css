@@ -4,6 +4,28 @@
 
 @media only screen and (min-width:400px) {
 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      
+      .box {
+        width: 46%;
+        margin: 2%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+      
+      }
+
+
+
     #header{
         padding: 0px;
         display: flex;
@@ -11,30 +33,7 @@
         align-items: center;
         padding: 10px;
     }
-    .itemrow{
-        display: block;
-        flex-direction:row;
-        justify-content:center;
-    }
-    .block{
-        width: 35%;
-        display: inline-block;
-        background-color: rgb(255, 255, 255);
-        border:1px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        text-align:center;
-        margin:2%;    
-        padding:20px;
     
-    }
-    .dueblock {
-        display: flex;
-        margin-left: 12%;
-    }
-    /*.block:hover{
-        border: 3px solid black;
-        padding: 17px
-    }*/
     #header img {
         width: 300px;
         height: 75px;
@@ -47,7 +46,8 @@
     .principale {
         background-image: url("../immagini/ruspa.png");
         height: 84vh;
-        background-size: cover;
+        background-size: cover; 
+        background-position: 25% 80%;
         display: flex;
         align-items: center;
     }
@@ -123,6 +123,8 @@
     }
 
    
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -133,26 +135,7 @@
         align-items: center;
         padding: 10px;
     }
-    .itemrow{
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-    }
-    .block {
-        width: auto;
-        display: inline-block;
-        background-color: rgb(255, 255, 255);
-        border:1px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        text-align:center;
-        margin:2%;    
-        padding:20px;
     
-    }
-    /*.block:hover{
-        border: 3px solid black;
-        padding: 17px
-    }*/
     #header img {
         width: 300px;
         height: 75px;
@@ -239,4 +222,34 @@
         display: flex;
     }
     
+      
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+      
+      .box {
+        width: 20%;
+        margin: 2%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+      
+        
+       
+      }
+      
+     
+
     }
+
+
+      
