@@ -2,7 +2,7 @@ a {
     color: black !important;
 }
 
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:430px) {
     #header>a {
         color: black !important;
         font-size: 40px;
@@ -63,7 +63,7 @@ a {
 
     .principale {
         background-image: url("../immagini/ruspa.png");
-        height: 84vh;
+        height: 70vh;
         background-size: cover;
         background-position: 25% 80%;
         display: flex;
@@ -98,7 +98,7 @@ a {
         margin: 30px 3px;
         padding: 30px;
         cursor: pointer;
-        line-height: 60px;
+        line-height: 40px;
     }
 
     h1 {
@@ -151,7 +151,13 @@ a {
 
     }
 
+    .categoria {
+        font-size: 2em !important;
+    }
 
+    p {
+        font-size: 1.8em;
+    }
 
 
 }
@@ -221,7 +227,7 @@ a {
         font-size: 16px;
         margin: 20px 2px;
         cursor: pointer;
-        line-height: 50px;
+        line-height: 30px;
     }
 
     h1 {
@@ -235,7 +241,7 @@ a {
 
     p {
         font-family: 'Playfair Display', serif;
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     .tre-colonne {
@@ -294,6 +300,9 @@ a {
 
     }
 
+    .categoria {
+        font-size: 2em !important;
+    }
 
-
+   
 }
