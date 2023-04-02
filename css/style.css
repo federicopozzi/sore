@@ -71,7 +71,7 @@ a {
     }
 
     .intro {
-        margin-left: 99px;
+        margin-left: 50px;
         width: 60%;
         padding: 20px;
         background-color: rgb(255, 255, 255, 0.2);
@@ -108,6 +108,10 @@ a {
 
     h2 {
         font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2.5em;
     }
 
     p {
